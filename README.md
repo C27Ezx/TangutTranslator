@@ -1,99 +1,79 @@
-# Tangut Raw Translator
+# 🏯 Tangut Crude Translator
 
-A **crude but powerful** command-line translator that brings the lost language of the **Tangut Empire (Western Xia)** back to life — one character at a time.
-
-> ✨ Built by a passionate digital archaeologist.  
-> 🧠 Powered by structured vocabulary from [Tangut.info](http://tangut.info) by Alan Downer.  
-> 🔥 Open-source, free, and born from love for forgotten languages.
+> 🌟 6000 Tangut word entries. Raw. Powerful. Beautiful. Everything in a single structured JSON file.
+> 
+> 🧠 Built from scratch using open data, for anyone interested in reviving, studying, or just having fun with the language of the Western Xia (Tangut Empire).
 
 ---
 
-## 📖 What Is This?
+## 💬 What is this?
 
-**Tangut Raw Translator** is a simple Python-based tool that allows users to translate **English ➝ Tangut** and **Tangut ➝ English** using a structured dataset of over **6,000 Tangut characters**.
+A simple Python script to **translate** between **English and Tangut** (or vice versa) using a massive dataset of ~6000 known Tangut entries. This isn't some AI model or grammar engine — it's **word-by-word**, **brute-force**, and **barebones**... and yet, incredibly effective for what it is.
 
-It’s *not* a full grammar-aware translator — just a **raw word-by-word match engine** based on known meanings, keywords, and phonetics.
-
----
-
-## 📦 Features
-
-- Translate from **English to Tangut**:  
-  Get all relevant Tangut characters for a given word (e.g., `peace`, `sky`, `river`).
-
-- Translate from **Tangut to English**:  
-  See meanings, phonetics, and lexical data for any Tangut character.
-
-- **Powered by JSON**:  
-  Uses a structured `.json` file extracted and compiled from **Tangut.info** entries.
-
-- Free. Local. Lightweight.  
-  Run it offline, hack it, learn from it.
+This tool is perfect if you:
+- Want to explore Tangut vocabulary fast.
+- Are building learning resources.
+- Want to see some seriously awesome Unicode glyphs like `𘘮`, `𗵻𗒐`, `𘚜𗅋𘒛` in your terminal.
+- Just love ancient scripts and languages.
 
 ---
 
-## 📝 Example Usage
-python tangut_translator.py 
-Loading Tangut data...
-Summary: Loaded 6000 entries. 4 entries had missing phonetics.
+## 🗂 Data Source
 
-Tangut Raw Translator
----------------------
-This is a raw, word-by-word translator based on the provided vocabulary list.
-It does NOT understand grammar or context, and provides theoretical translations only.
-For English to Tangut, it will list all possible matches for a given word.
----------------------
-
-Choose a translation direction:
-1. Tangut -> English
-2. English -> Tangut
-3. Exit
-4. Clear Screen Output
-Enter your choice (1/2/3/4): 2
-Enter English text (e.g., sky river): sky river
---- Word-by-Word Translation (English -> Tangut) ---
-'sky': '𗳄' (kjɨ̲r2) [from: 'sky']; '𗹦' (mǝ1) [from: 'sky, heaven']; '𗽞' (thjɨj1) [from: 'sky']; '𘀗' (tshjwu1) [from: 'sky, heaven']; '𘓱' (me̲2) [from: 'sky, day']; '𘕿' (ɣa2) [from: 'locative particle in (the sky, the heart); on, around']
-'river': '𗊝' (dźja̲1) [from: 'cross (a river)']; '𗊧' (tśhjwã1) [from: 'river']; '𗋽' (zjɨ̲r2) [from: 'water; river']; '𗌜' (njo̲r1) [from: 'water, river']; '𗡴' (śjwa1) [from: 'river']; '𗲌' (mja1) [from: 'river']; '𘖂' (ŋewr2) [from: 'river deer']
----------------------------------------------------
-
---- Combined Phrase Details ---
-Combined Tangut Phrase: 𗳄𗊝
-Combined Pronunciation: kjɨ̲r2 dźja̲1
--------------------------------
-
-============================================================
-Choose a translation direction:
-1. Tangut -> English
-2. English -> Tangut
-3. Exit
-4. Clear Screen Output
-Enter your choice (1/2/3/4): 3
-Exiting translator...
-
+- The 6000+ entries come from [tangut.info](https://tangut.info/) — a monumental site by **Alan Downes**.
+- His work also includes a full Honours Thesis, deep linguistic structure, and incredibly rich data. Huge shoutout and gratitude to him 🙏
 
 ---
-🙏 Credits & Data Source
-This project uses compiled vocabulary entries and phonetic reconstructions based on the research and resources from:
 
-Alan Downer – Tangut.info, especially the Tangut Vocabulary Data
+## 🚀 Features
 
-Li Fanwen Dictionary for the reference numbering (LFW codes)
+- Translate from **English → Tangut**
+- Translate from **Tangut → English**
+- Outputs character, phonetic transcription, meaning, keyword tags, and Li Fanwen number (LFW index)
+- Crude, fast, and open-source
+- MIT Licensed — use it for anything
 
-Xi Xia scholars and linguists who worked to preserve and decode Tangut script
+---
 
-If you use this project for further study or tools, please credit Alan Downer and Tangut.info.
+## 🛠 How to Use
 
-📚 Why This Exists
-The Tangut script was once the voice of a mighty empire. It fell into silence for centuries — until now.
+1. Make sure you have Python 3.x
+2. Clone/download this repo
+3. Run the script:
+```bash
+python tangut_translator.py
+```
+4. Choose your direction, input a word or Tangut character, and go!
 
-This project was created by someone who refused to let Tangut remain forgotten. The goal?
-✨ To revive, learn, and teach Tangut to the world.
+---
 
-📜 License
-This project is open-source and free to use under the MIT License.
-Knowledge is meant to be shared.
+## 📦 Files
 
-🌌 Final Note
-If you read this far:
-𗵻𗒐 (śja2 ɣiwej1) — Welcome.
-𘚜𗅋𘒛 (lhjwịj1 mji1 mjịj2) — Tangut not forgotten.
+- `tangut_translator.py` — the main script
+- `tangut_learning_data.txt` — the JSON database with 6000 entries
+- `LICENSE` — MIT License (do what you want, just credit!)
+- `README.md` — you're reading it
+
+---
+
+## 🌐 What’s next?
+
+- GUI or web interface
+- Grammar rules (one day maybe...)
+- Tangut Minecraft translation pack? Why not.
+- Teaching materials? Flashcards? Music in Tangut? Let’s go.
+
+---
+
+## 🙌 Contribute
+
+Want to help expand this? Clean up data? Build on top?
+Feel free to fork, open issues, or just vibe with us.
+
+This was made for **everyone**, not just researchers.  
+𘚜𗅋𘒛 — *Tangut not forgotten*
+
+---
+
+Made with love and Unicode 🔥  
+Note: Ensure to download a font that supports Tangut Characters for displaying them, I recommend using the Tangut Yinchuan font which you can find on: https://www.babelstone.co.uk/Fonts/Yinchuan.html
