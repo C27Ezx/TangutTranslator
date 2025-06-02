@@ -2,7 +2,7 @@ import re
 import os
 import json
 
-def load_tangut_data(filename="tangut_learning_data.txt"):
+def load_tangut_data(filename="tangut_learning_data.json"):
     """
     Loads Tangut vocabulary data from a JSON file and builds translation dictionaries.
     """
