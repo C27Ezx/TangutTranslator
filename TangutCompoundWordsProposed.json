@@ -1366,5 +1366,107 @@
     "Proposed Tangut Word": "𘟫𗀫",
     "Literal Tangut Meaning": "Sword Cover",
     "Reasoning/Explanation": "To translate 'scabbard,' I've compounded 𘟫 (sword) with 𗀫 (cover), signifying a sword cover."
+  },
+  {
+   "Modern Concept": "Doing",
+    "Proposed Tangut Word": "𘃡𗇋",
+    "Literal Tangut Meaning": "Do Nominaliser",
+    "Reasoning/Explanation": "To express 'doing' as an ongoing action or the act itself, Tangut often employs nominalization. 𘃡 (wji1) means 'do,' and 𗇋 (mjijr2) serves as a nominaliser (among other functions). Combining these two characters forms a compound that conveys 'the act of doing' or 'that which is done,' effectively capturing the continuous or substantive sense of 'doing' in Tangut grammar."
+  },
+  {
+  	"Modern Concept": "Use",
+    "Proposed Tangut Word": "𘃡𗕂",
+    "Literal Tangut Meaning": "Do Tool",
+    "Reasoning/Explanation": "To convey 'use' in the sense of 'to employ an implement or means,' I've compounded the general verb 𘃡 (wji1, 'do') with 𗕂 (giu2, 'tool, utensil'). This theoretical compound literally means 'to do/make [with a] tool' or 'to operate [a] tool,' which effectively expresses the concept of 'using' something for a purpose."
+  },
+  {
+    "Modern Concept": "Used",
+    "Proposed Tangut Word": "𗫿 (adjective); 𘃡𗕂𗡟 (past tense of 'use')",
+    "Literal Tangut Meaning": "Worn / Old (adjective); Did Tool (past tense of 'use')",
+    "Reasoning/Explanation": "'Used' has two primary senses. For the adjectival meaning of 'worn' or 'second-hand,' 𗫿 (kjwi1) is a direct match, meaning 'used, worn, old.' For 'used' as the past tense of 'to use,' Tangut typically conveys completed action through aspect markers rather than direct verb inflections. Thus, I've taken the theoretical verb for 'use' (𘃡𗕂, 'do tool') and appended 𗡟 (mjijr2), a Tangut perfective marker. This combination means 'did tool,' conveying the completed action of 'using.'"
+  },
+  {
+   "Modern Concept": "Using",
+    "Proposed Tangut Word": "𗳒",
+    "Literal Tangut Meaning": "Instrumental Particle",
+    "Reasoning/Explanation": "'Using' can often imply 'by means of' or 'with the aid of.' In Tangut, this instrumental or causative sense is directly conveyed by the auxiliary word 𗳒 (ŋwu2), which is described as an 'instrumental particle.' This character is a direct match for expressing that an action is performed 'by using' something."
+  },
+  {
+  "Modern Concept": "Input",
+      "Proposed Tangut Word": "𗜹𘝞",
+      "Literal Tangut Meaning": "Enter Writing",
+      "Reasoning/Explanation": "To represent 'input' in a digital context, I've combined 𗜹 (ljị1), meaning 'enter,' with 𘝞 (.jwɨr2), meaning 'writing' or 'that which is written.' This compound suggests data or information being entered into a system, paralleling how 'input' often refers to text or data provided to a computer."
+  },
+  {
+   "Modern Concept": "Output",
+    "Proposed Tangut Word": "𗣈𘝞",
+    "Literal Tangut Meaning": "Exit Writing",
+    "Reasoning/Explanation": "Following the logic for 'input,' 'output' is conceptualized as information exiting a system. I've used 𗣈 (lho), meaning 'come; to exit,' combined with 𘝞 (.jwɨr2), 'writing.' This forms a compound that means 'writing/data exiting,' which is a straightforward way to express digital output."
+  },
+  {
+  "Modern Concept": "System",
+      "Proposed Tangut Word": "𗹙𗳻",
+      "Literal Tangut Meaning": "Law Straight",
+      "Reasoning/Explanation": "To translate 'system,' I've compounded 𗹙 (law) with 𗳻 (straight). This calques the Chinese idea of a 'system' (制度 zhìdù - often implies 'rule'/'law' and 'order'/'straightness')."
+  },
+  {
+   "Modern Concept": "Process",
+    "Proposed Tangut Word": "𗀅𘐡",
+    "Literal Tangut Meaning": "Undergo Order",
+    "Reasoning/Explanation": "A 'process' implies a sequence of steps or an ordered transformation. I've chosen 𗀅 (zar2), meaning 'undergo' or 'to go through,' and combined it with 𘐡 (tśjɨ1), which means 'order' or 'sequence.' This compound conveys the idea of something being subjected to a particular ordered procedure, fitting the concept of a 'process.'"
+  },
+  {
+  "Modern Concept": "Processor",
+      "Proposed Tangut Word": "𗀅𘐡𗕂",
+      "Literal Tangut Meaning": "Undergo Order Tool",
+      "Reasoning/Explanation": "Building on the theoretical word for 'process' (𗀅𘐡, 'undergo order'), I've added 𗕂 (giu2), which means 'tool' or 'utensil.' This compound theoretically describes a 'processor' as 'a tool that undergoes or performs order/sequence,' accurately reflecting its function in managing and executing processes, especially in a computational context."
+  },
+  {
+   "Modern Concept": "Memory",
+    "Proposed Tangut Word": "𘑬𘃥",
+    "Literal Tangut Meaning": "Consciousness Store",
+    "Reasoning/Explanation": "For 'memory,' encompassing both the mental faculty and data storage, I've combined 𘑬 (dwewr2), meaning 'consciousness' or 'to know,' with 𘃥 (dju̲1), meaning 'store' or 'save.' This compound suggests a 'store of consciousness' or a 'place where knowledge/information is kept,' providing a broad semantic field that covers both psychological and computational memory concepts."
+  },
+  {
+  "Modern Concept": "Keyboard",
+      "Proposed Tangut Word": "𗲕𗝤",
+      "Literal Tangut Meaning": "Button Board",
+      "Reasoning/Explanation": "A 'keyboard' is fundamentally a board with buttons. I've used 𗲕 (tse1), meaning 'button,' and 𗝤 (rer2), meaning 'plate' or 'board.' This straightforward descriptive compound clearly conveys the physical nature of a keyboard."
+  },
+  {
+    "Modern Concept": "Central",
+    "Proposed Tangut Word": "𘒁",
+    "Literal Tangut Meaning": "Centre / Middle",
+    "Reasoning/Explanation": "The concept of 'central' is directly represented by 𘒁 (djụ1), which means 'centre,' 'middle,' or 'cross.' This character effectively conveys the idea of being at the core or heart of something."
+  },
+  {
+  "Modern Concept": "Random",
+      "Proposed Tangut Word": "𗉡",
+      "Literal Tangut Meaning": "Irregular / Uneven",
+      "Reasoning/Explanation": "'Random' implies a lack of order or predictability. 𗉡 (kiew2) directly means 'irregular' or 'uneven,' which captures the essence of randomness better than concepts of 'disorder' that might imply chaos. It suggests a lack of pattern or consistent arrangement."
+  },
+  {
+  	"Modern Concept": "Access",
+  	    "Proposed Tangut Word": "𗟝",
+  	    "Literal Tangut Meaning": "Get into",
+  	    "Reasoning/Explanation": "The word 'access' often means to 'gain entry' or 'get into' something. The Tangut character 𗟝 (ɣiej1) directly translates to 'get into,' providing a concise and appropriate theoretical word for the concept of 'access.'"
+  },
+  {
+  "Modern Concept": "Story",
+      "Proposed Tangut Word": "𗟲𗋀",
+      "Literal Tangut Meaning": "Speech Flow",
+      "Reasoning/Explanation": "A 'story' is a narrative, often told verbally or written, implying a progression of events. I've combined 𗟲 (ŋwu̲1), meaning 'speech' or 'say,' with 𗋀 (tśjɨ̣2), meaning 'flow' or 'pass.' This compound evokes the idea of a narrative 'flowing out' or 'passing on' through speech, fitting the nature of a story."
+  },
+  {
+    "Modern Concept": "Legend",
+    "Proposed Tangut Word": "𘈧𗟲",
+    "Literal Tangut Meaning": "Pass Speech / Biography Speech",
+    "Reasoning/Explanation": "A 'legend' is a traditional narrative often passed down through generations, sometimes having historical connotations. I've chosen 𘈧 (de̲j1), which means 'pass,' 'pass on,' and even 'biography,' and combined it with 𗟲 (ŋwu̲1), 'speech.' This compound suggests a 'speech' or 'narrative' that has been 'passed on,' aligning with the traditional and transmittable nature of a legend."
+  },
+  {
+    "Modern Concept": "Electric",
+    "Proposed Tangut Word": "𗬓𗪺",
+    "Literal Tangut Meaning": "Lightning Power",
+    "Reasoning/Explanation": "Many languages, especially older ones adapting to modern concepts, associate 'electric' with 'lightning.' I've adopted this calquing strategy, combining 𗬓 (tshjwu1), meaning 'lightning,' with 𗪺 (ɣie1), meaning 'power' or 'strength.' This forms 'lightning power,' an intuitive description for electricity."
   }
 ]
