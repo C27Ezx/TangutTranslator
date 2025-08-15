@@ -203,7 +203,7 @@ def load_tangut_data(lifanwen_file_path, compound_file_path):
 
     # Return None for dictionaries if any essential data failed to load
     if li_fanwen_data is None or compound_data is None:
-        return None, None, None, None, None # Added None for the new dict
+        return None, None, None, None
 
     return tangut_phrases_to_meanings, english_to_tangut, tangut_to_chinese, chinese_to_tangut
 
@@ -372,7 +372,13 @@ def translate_chinese_to_tangut(chinese_text, c_to_t_dict):
         if tangut_matches:
             # Sort for consistent output
             sorted_tangut_matches = sorted(tangut_matches)
-            detailed_results.append(f"'{char}': {'; '.join(f'\'{t_char}\'' for t_char in sorted_tangut_matches)}")
+            
+            # 1. Create the string of joined matches first. This avoids complex syntax inside the f-string.
+            matches_str = '; '.join(f"'{t_char}'" for t_char in sorted_tangut_matches)
+            
+            # 2. Now, use the simple variable in the main f-string.
+            detailed_results.append(f"'{char}': {matches_str}")
+            
             # For combined phrase, pick the first match (alphabetically sorted)
             combined_tangut_chars.append(sorted_tangut_matches[0])
         else:
